@@ -1,4 +1,5 @@
 @import url(https://fonts.googleapis.com/css?family=Urbanist:100,200,300,regular,500,600,700,800,900,100italic,200italic,300italic,italic,500italic,600italic,700italic,800italic,900italic);
+
 * {
   font-family: "urbanist";
   margin: 0;
@@ -7,19 +8,23 @@
   list-style: none;
   text-decoration: none;
 }
+
 .container {
   max-width: 1596px;
   margin: auto;
 }
+
 header {
   padding: 20px 0;
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
+
 body {
   background: rgb(20, 20, 20);
 }
+
 nav {
   display: flex;
   justify-content: space-between;
@@ -27,10 +32,12 @@ nav {
   max-width: 1000px;
   width: 100%;
 }
+
 header ul {
   display: flex;
   align-items: center;
 }
+
 header ul li {
   padding: 14px 24px;
   color: rgb(255, 255, 255);
@@ -40,6 +47,7 @@ header ul li {
   letter-spacing: 0%;
   text-align: left;
 }
+
 nav button {
   color: rgb(255, 255, 255);
   font-size: 18px;
@@ -56,6 +64,7 @@ nav button {
   background: rgb(20, 20, 20);
   padding: 16px 24px;
 }
+
 .discover button,
 a {
   color: rgb(255, 255, 255);
@@ -67,24 +76,28 @@ a {
   background: rgb(26, 26, 26);
   border: none;
 }
+
 .discover {
   margin: 0 15px;
   text-align: center;
   padding: 18px 0;
   position: relative;
 }
+
 .home {
   background-image: url(../public/imgs/building.svg);
   background-position: right;
   background-repeat: no-repeat;
   height: 80vh;
 }
-.home-box {
-}
+
+.home-box {}
+
 .home-right {
   max-width: 758px;
   padding: 100px 0;
 }
+
 .home-right h2 {
   color: rgb(255, 255, 255);
   font-size: 60px;
@@ -93,6 +106,7 @@ a {
   letter-spacing: 0%;
   text-align: left;
 }
+
 .home-right p {
   color: rgb(153, 153, 153);
   font-size: 18px;
@@ -102,6 +116,7 @@ a {
   text-align: left;
   margin-top: 20px;
 }
+
 .home-right button {
   color: rgb(255, 255, 255);
   font-size: 18px;
@@ -114,6 +129,7 @@ a {
   border-radius: 10px;
   padding: 18px 24px;
 }
+
 .home-right .purple {
   color: rgb(255, 255, 255);
   font-size: 18px;
@@ -127,6 +143,7 @@ a {
   background: rgb(112, 59, 247);
   padding: 18px 24px;
 }
+
 .card h3 {
   color: rgb(255, 255, 255);
   font-size: 40px;
@@ -135,11 +152,13 @@ a {
   letter-spacing: 0%;
   text-align: left;
 }
+
 .right-bottom {
   display: flex;
   gap: 20px;
   margin-top: 60px;
 }
+
 .right-bottom .card {
   box-sizing: border-box;
   /* Grey/15 */
@@ -150,28 +169,34 @@ a {
   background: rgb(26, 26, 26);
   padding: 16px 24px;
 }
+
 .right-center {
   display: flex;
   gap: 20px;
   margin-top: 60px;
 }
+
 .home img {
   position: absolute;
 }
+
 /* discover */
 .discover img {
   position: absolute;
   right: 0;
 }
+
 .icons {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   gap: 20px;
-  padding: 20px; /* Grey/15 */
+  margin-top: 90px;
+  /* Grey/15 */
   border: 1px solid rgb(38, 38, 38);
   /* Grey/08 */
   background: rgb(20, 20, 20);
 }
+
 .icon {
   width: 100%;
   padding: 40px;
@@ -184,6 +209,7 @@ a {
   /* Grey/10 */
   background: rgb(26, 26, 26);
 }
+
 .icons h5 {
   color: rgb(255, 255, 255);
   font-size: 20px;
@@ -193,6 +219,7 @@ a {
   text-align: center;
   margin-top: 20px;
 }
+
 .features h2 {
   color: rgb(255, 255, 255);
   font-size: 48px;
@@ -201,6 +228,7 @@ a {
   letter-spacing: 0%;
   text-align: left;
 }
+
 .features p {
   max-width: 1200px;
   color: rgb(153, 153, 153);
@@ -211,6 +239,7 @@ a {
   text-align: left;
   margin-top: 15px;
 }
+
 .features button {
   color: rgb(255, 255, 255);
   font-size: 18px;
@@ -227,15 +256,18 @@ a {
   background: rgb(26, 26, 26);
   padding: 18px 24px;
 }
+
 .features {
   padding: 150px 0;
 }
+
 .feature-bottom {
   /* display: grid;
   grid-template-columns: repeat(3, 1fr);
   gap: 30px;
   padding: 80px 0; */
 }
+
 .card {
   box-sizing: border-box;
   border: 1px solid rgb(38, 38, 38);
@@ -244,6 +276,7 @@ a {
   background: rgb(20, 20, 20);
   padding: 40px;
 }
+
 .top h4 {
   color: rgb(255, 255, 255);
   font-size: 24px;
@@ -253,6 +286,7 @@ a {
   text-align: left;
   margin-top: 30px;
 }
+
 .top p {
   max-width: 425px;
   font-size: 18px;
@@ -262,6 +296,7 @@ a {
   text-align: left;
   margin-bottom: 30px;
 }
+
 .center button {
   color: rgb(255, 255, 255);
   font-size: 18px;
@@ -278,11 +313,13 @@ a {
   background: rgb(26, 26, 26);
   padding: 8px;
 }
+
 .center {
   display: flex;
   margin-bottom: 30px;
   justify-content: space-between;
 }
+
 .bottom span {
   color: rgb(153, 153, 153);
   font-size: 18px;
@@ -291,6 +328,7 @@ a {
   letter-spacing: 0%;
   text-align: left;
 }
+
 .bottom h5 {
   color: rgb(255, 255, 255);
   font-size: 24px;
@@ -299,6 +337,7 @@ a {
   letter-spacing: 0%;
   text-align: left;
 }
+
 .bottom button {
   color: rgb(255, 255, 255);
   font-size: 18px;
@@ -311,16 +350,19 @@ a {
   background: rgb(112, 59, 247);
   padding: 18px 54px;
 }
+
 .bottom-box {
   display: flex;
   align-items: center;
   justify-content: space-between;
 }
+
 .featured {
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
+
 .comments-top h2 {
   color: rgb(255, 255, 255);
   font-size: 38px;
@@ -329,6 +371,7 @@ a {
   letter-spacing: 0%;
   text-align: left;
 }
+
 .comments-top p {
   color: rgb(153, 153, 153);
   font-size: 18px;
@@ -337,6 +380,7 @@ a {
   letter-spacing: 0%;
   text-align: left;
 }
+
 .comments-top button {
   color: rgb(255, 255, 255);
   font-size: 18px;
@@ -353,6 +397,7 @@ a {
   background: rgb(26, 26, 26);
   padding: 18px 24px;
 }
+
 .comment h3 {
   color: rgb(255, 255, 255);
   font-family: Urbanist;
@@ -363,6 +408,7 @@ a {
   text-align: left;
   margin-top: 40px;
 }
+
 .comment h5 {
   color: rgb(255, 255, 255);
   font-family: Urbanist;
@@ -374,6 +420,7 @@ a {
   text-align: left;
   margin-top: 14px;
 }
+
 .comment h4 {
   color: rgb(255, 255, 255);
   font-family: Urbanist;
@@ -383,6 +430,7 @@ a {
   letter-spacing: 0px;
   text-align: left;
 }
+
 .comment p {
   color: rgb(153, 153, 153);
   font-family: Urbanist;
@@ -392,6 +440,7 @@ a {
   letter-spacing: 0px;
   text-align: left;
 }
+
 .comment {
   max-width: 512px;
   box-sizing: border-box;
@@ -403,19 +452,23 @@ a {
   background: rgb(20, 20, 20);
   padding: 50px;
 }
+
 .comment-bottom {
   display: flex;
   align-items: center;
   gap: 12px;
   margin-top: 40px;
 }
+
 .comments-bottom {
   margin-top: 80px;
 }
+
 .coments {
   margin-top: 140px;
   margin-bottom: 100px;
 }
+
 .comment h3 {
   max-width: 410px;
   color: rgb(255, 255, 255);
@@ -427,6 +480,7 @@ a {
   text-align: left;
   margin-bottom: 30px;
 }
+
 .comment p {
   color: rgb(153, 153, 153);
   font-family: Urbanist;
@@ -437,6 +491,7 @@ a {
   text-align: left;
   margin-top: 30px;
 }
+
 .comment button {
   color: rgb(255, 255, 255);
   font-family: Urbanist;
@@ -455,6 +510,7 @@ a {
   /* Grey/10 */
   background: rgb(26, 26, 26);
 }
+
 .start h2 {
   color: rgb(255, 255, 255);
   font-family: Urbanist;
@@ -464,6 +520,7 @@ a {
   letter-spacing: 0%;
   text-align: left;
 }
+
 .start p {
   max-width: 1154px;
   color: rgb(153, 153, 153);
@@ -474,6 +531,7 @@ a {
   text-align: left;
   margin-top: 15px;
 }
+
 .start button {
   color: rgb(255, 255, 255);
   font-family: Urbanist;
@@ -487,19 +545,23 @@ a {
   background: rgb(112, 59, 247);
   padding: 18px 24px;
 }
+
 .start {
   padding: 100px 0;
 }
+
 .starter {
   display: flex;
   justify-content: space-between;
 }
+
 .start-box {
   box-sizing: border-box;
   /* Grey/15 */
   border-bottom: 1px solid rgb(38, 38, 38);
   border-top: 1px solid rgb(38, 38, 38);
 }
+
 input {
   color: rgb(153, 153, 153);
   font-family: Urbanist;
@@ -511,11 +573,13 @@ input {
   background: none;
   border: none;
 }
+
 .footer {
   padding: 100px 0;
   display: flex;
   justify-content: space-between;
 }
+
 .email {
   max-width: 423px;
   display: flex;
@@ -532,10 +596,12 @@ input {
   padding: 21px 24px;
   margin-top: 30px;
 }
+
 .email-box {
   display: flex;
   gap: 10px;
 }
+
 footer li {
   color: rgb(255, 255, 255);
   font-family: Urbanist;
@@ -546,10 +612,12 @@ footer li {
   text-align: left;
   margin-top: 30px;
 }
+
 .footer-right {
   display: flex;
   gap: 100px;
 }
+
 ul span {
   color: rgb(153, 153, 153);
   font-family: Urbanist;
@@ -566,6 +634,7 @@ ul span {
   align-items: center;
   margin-top: 40px;
 }
+
 .footer-bottom h5 {
   color: rgb(255, 255, 255);
   font-family: Urbanist;
@@ -575,10 +644,12 @@ ul span {
   letter-spacing: -0.6%;
   text-align: left;
 }
+
 .footer-bottoms {
   /* Grey/10 */
   background: rgb(26, 26, 26);
 }
+
 /* scroll */
 ::-webkit-scrollbar {
   width: 0px;
@@ -598,6 +669,7 @@ ul span {
 ::-webkit-scrollbar-thumb:hover {
   background: transparent;
 }
+
 .about h2 {
   color: rgb(255, 255, 255);
   font-family: Urbanist;
@@ -607,6 +679,7 @@ ul span {
   letter-spacing: 0%;
   text-align: left;
 }
+
 .about p {
   max-width: 755px;
   color: rgb(153, 153, 153);
@@ -618,6 +691,7 @@ ul span {
   text-align: left;
   margin-top: 14px;
 }
+
 .about h4 {
   color: rgb(255, 255, 255);
   font-family: Urbanist;
@@ -627,15 +701,18 @@ ul span {
   letter-spacing: 0%;
   text-align: left;
 }
+
 .about {
   display: flex;
   justify-content: space-between;
   margin-top: 82px;
 }
+
 .about-left-bottom {
   display: flex;
   gap: 20px;
 }
+
 .numbers {
   box-sizing: border-box;
   /* Grey/15 */
