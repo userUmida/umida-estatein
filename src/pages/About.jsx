@@ -32,6 +32,7 @@ function About() {
           <img src="imgs/house.png" alt="" />
         </div>
       </div>
+      <div className="value"></div>
     </>
   );
 }
