@@ -91,7 +91,8 @@ a {
   height: 80vh;
 }
 
-.home-box {}
+.home-box {
+}
 
 .home-right {
   max-width: 758px;
@@ -722,4 +723,206 @@ ul span {
   /* Grey/10 */
   background: rgb(26, 26, 26);
   padding: 24px 24px;
+  margin-top: 80px;
+}
+.value-left h2 {
+  color: rgb(255, 255, 255);
+  font-family: Urbanist;
+  font-size: 48px;
+  font-weight: 600;
+  line-height: 150%;
+  letter-spacing: 0%;
+  text-align: left;
+}
+.value-left p {
+  max-width: 517px;
+  color: rgb(153, 153, 153);
+  font-family: Urbanist;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 150%;
+  letter-spacing: 0%;
+  text-align: left;
+  margin-top: 14px;
+}
+.value {
+  display: flex;
+  justify-content: space-between;
+  padding: 160px 0;
+  align-items: center;
+}
+.value-right h4 {
+  color: rgb(255, 255, 255);
+  font-family: Urbanist;
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 150%;
+  letter-spacing: 0%;
+  text-align: left;
+}
+.value-right p {
+  max-width: 409.5px;
+  color: rgb(153, 153, 153);
+  font-family: Urbanist;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 150%;
+  letter-spacing: 0%;
+  text-align: left;
+}
+.value-right {
+  display: grid;
+  grid-template-columns: repeat(2, 2fr);
+  gap: 60px;
+  box-sizing: border-box;
+  /* Grey/15 */
+  border: 1px solid rgb(38, 38, 38);
+  border-radius: 12px;
+
+  box-shadow: 0px 0px 0px 10px rgb(25, 25, 25);
+  /* Grey/08 */
+  background: rgb(20, 20, 20);
+  padding: 60px 60px;
+}
+.value-box {
+  display: flex;
+  gap: 14px;
+  align-items: center;
+  margin-bottom: 20px;
+}
+.values {
+  margin-bottom: 60px 0;
+}
+.achivements-top h2 {
+  color: rgb(255, 255, 255);
+  font-family: Urbanist;
+  font-size: 48px;
+  font-weight: 600;
+  line-height: 150%;
+  letter-spacing: 0%;
+  text-align: left;
+  margin-bottom: 14px;
+}
+.achivements-top p {
+  max-width: 1297px;
+  color: rgb(153, 153, 153);
+  font-family: Urbanist;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 150%;
+  letter-spacing: 0%;
+  text-align: left;
+}
+.achivements-bottom {
+  padding: 80px 0;
+  display: flex;
+  gap: 40px;
+}
+.achivements-bottom h4 {
+  color: rgb(255, 255, 255);
+  font-family: Urbanist;
+  font-size: 30px;
+  font-weight: 600;
+  line-height: 150%;
+  letter-spacing: 0%;
+  text-align: left;
+}
+.achivements-bottom p {
+  max-width: 405.5px;
+  color: rgb(153, 153, 153);
+  font-family: Urbanist;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 150%;
+  letter-spacing: 0%;
+  text-align: left;
+  margin-top: 30px;
+}
+.achives {
+  max-width: 505px;
+  box-sizing: border-box;
+  /* Grey/15 */
+  border: 1px solid rgb(38, 38, 38);
+  border-radius: 12px;
+
+  box-shadow: 0px 0px 0px 8px rgb(25, 25, 25);
+  /* Grey/08 */
+  background: rgb(20, 20, 20);
+  padding: 50px 50px;
+}
+.navigation-top h2 {
+  color: rgb(255, 255, 255);
+  font-family: Urbanist;
+  font-size: 48px;
+  font-weight: 600;
+  line-height: 150%;
+  letter-spacing: 0%;
+  text-align: left;
+}
+.navigation-top p {
+  max-width: 1297px;
+  color: rgb(153, 153, 153);
+  font-family: Urbanist;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 150%;
+  letter-spacing: 0%;
+  text-align: left;
+  margin-bottom: 14px;
+}
+.navigation-bottom h6 {
+  color: rgb(255, 255, 255);
+  font-family: Urbanist;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 150%;
+  letter-spacing: 0%;
+  text-align: left;
+  box-sizing: border-box;
+  /* Purple/60 */
+  border-left: 1px solid rgba(112, 59, 247, 0.345);
+  padding: 16px 20px;
+}
+.navigation-bottom h4 {
+  color: rgb(255, 255, 255);
+  font-family: Urbanist;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 150%;
+  letter-spacing: 0%;
+  text-align: left;
+}
+.navigation-bottom p {
+  max-width: 412px;
+  color: rgb(153, 153, 153);
+  font-family: Urbanist;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 150%;
+  letter-spacing: 0%;
+  text-align: left;
+  margin-top: 20px;
+}
+.navigation-bottom {
+  display: grid;
+  grid-template-columns: repeat(3, 3fr);
+  padding: 80px 0;
+  gap: 30px;
+}
+.steps {
+  margin-top: 50px;
+}
+.stepic {
+  padding: 50px;
+  box-sizing: border-box;
+  border-left: 1px solid rgba(112, 59, 247, 0.345);
+  border-top: 1px solid rgba(112, 59, 247, 0.375);
+
+  border-radius: 0px 12px 12px 12px;
+
+  background: linear-gradient(
+    156.17deg,
+    rgb(112, 59, 247) -49.397%,
+    rgba(112, 59, 247, 0) 13.589%
+  );
 }
