@@ -1,5 +1,13 @@
-import React from "react";
+import React, { useRef, useState } from "react";
+// Import Swiper React components
+import { Swiper, SwiperSlide } from "swiper/react";
 
+// Import Swiper styles
+import "swiper/css";
+import "swiper/css/pagination";
+
+// import required modules
+import { Pagination } from "swiper/modules";
 function About() {
   return (
     <>
@@ -209,18 +217,355 @@ function About() {
         </div>
         <div className="team-bottom">
           <div className="bio">
-            <img src="" alt="" />
+            <div className="image-box">
+              <img src="imgs/1.svg" alt="" />
+              <img className="btn-img" src="imgs/btn.svg" alt="" />
+            </div>
+            <h4> Max Mitchell</h4>
+            <p>Founder</p>
+            <div className="button-box">
+              <h5>Say Hello 👋</h5>
+              <img src="imgs/sender.svg" alt="" />
+            </div>
           </div>
           <div className="bio">
-            <img src="" alt="" />
+            <div className="image-box">
+              <img src="imgs/2.svg" alt="" />
+              <img className="btn-img" src="imgs/btn.svg" alt="" />
+            </div>
+            <h4>Sarah Johnson</h4>
+            <p>Chief Real Estate Officer</p>
+            <div className="button-box">
+              <h5>Say Hello 👋</h5>
+              <img src="imgs/sender.svg" alt="" />
+            </div>
           </div>
           <div className="bio">
-            <img src="" alt="" />
+            <div className="image-box">
+              <img src="imgs/3.svg" alt="" />
+              <img className="btn-img" src="imgs/btn.svg" alt="" />
+            </div>
+            <h4>Chief Real Estate Officer</h4>
+            <p>Head of Property Management</p>
+            <div className="button-box">
+              <h5>Say Hello 👋</h5>
+              <img src="imgs/sender.svg" alt="" />
+            </div>
           </div>
           <div className="bio">
-            <img src="" alt="" />
+            <div className="image-box">
+              <img src="imgs/4.svg" alt="" />
+              <img className="btn-img" src="imgs/btn.svg" alt="" />
+            </div>
+            <h4>Michael Turner</h4>
+            <p>Legal Counsel</p>
+            <div className="button-box">
+              <h5>Say Hello 👋</h5>
+              <img src="imgs/sender.svg" alt="" />
+            </div>
           </div>
         </div>
+      </div>
+      <div className="section container">
+        <div className="section-top">
+          <h2>Our Valued Clients</h2>
+          <p>
+            At Estatein, we have had the privilege of working with a diverse
+            range of clients across various industries. Here are some of the
+            clients we've had the pleasure of serving
+          </p>
+        </div>
+        <Swiper
+          slidesPerView={1}
+          spaceBetween={50}
+          pagination={{
+            dynamicBullets: true,
+          }}
+          modules={[Pagination]}
+          className="mySwiper"
+        >
+          <SwiperSlide>
+            <div className="section-box">
+              <div className="section-bottom">
+                <div className="since">
+                  <div className="year">
+                    <p>Since 2019</p>
+                    <h3>ABC Corporation</h3>
+                  </div>
+                  <button>Visit Website</button>
+                </div>
+                <div className="domain">
+                  <div className="domain-left">
+                    <div className="domainy">
+                      <img src="imgs/domain.png" alt="" />
+                      <p>Domain</p>
+                    </div>
+                    <h4>Commercial Real Estate</h4>
+                  </div>
+                  <div className="domain-right">
+                    <div className="domainy">
+                      <img src="imgs/electr.png" alt="" />
+                      <p>Category</p>
+                    </div>
+                    <h4>Luxury Home Development</h4>
+                  </div>
+                </div>
+                <div className="said">
+                  <p>What They Said 🤗</p>
+                  <h5>
+                    Estatein's expertise in finding the perfect office space for
+                    our expanding operations was invaluable. They truly
+                    understand our business needs.
+                  </h5>
+                </div>
+              </div>
+              <div className="section-bottom">
+                <div className="since">
+                  <div className="year">
+                    <p>Since 2018</p>
+                    <h3>GreenTech Enterprises</h3>
+                  </div>
+                  <button>Visit Website</button>
+                </div>
+                <div className="domain">
+                  <div className="domain-left">
+                    <div className="domainy">
+                      <img src="imgs/domain.png" alt="" />
+                      <p>Domain</p>
+                    </div>
+                    <h4>Commercial Real Estate</h4>
+                  </div>
+                  <div className="domain-right">
+                    <div className="domainy">
+                      <img src="imgs/electr.png" alt="" />
+                      <p>Category</p>
+                    </div>
+                    <h4>Retail Space</h4>
+                  </div>
+                </div>
+                <div className="said">
+                  <p>What They Said 🤗</p>
+                  <h5>
+                    Estatein's expertise in finding the perfect office space for
+                    our expanding operations was invaluable. They truly
+                    understand our business needs.
+                  </h5>
+                </div>
+              </div>
+            </div>
+          </SwiperSlide>
+          <SwiperSlide>
+            <div className="section-box">
+              <div className="section-bottom">
+                <div className="since">
+                  <div className="year">
+                    <p>Since 2018</p>
+                    <h3>GreenTech Enterprises</h3>
+                  </div>
+                  <button>Visit Website</button>
+                </div>
+                <div className="domain">
+                  <div className="domain-left">
+                    <div className="domainy">
+                      <img src="imgs/domain.png" alt="" />
+                      <p>Domain</p>
+                    </div>
+                    <h4>Commercial Real Estate</h4>
+                  </div>
+                  <div className="domain-right">
+                    <div className="domainy">
+                      <img src="imgs/electr.png" alt="" />
+                      <p>Category</p>
+                    </div>
+                    <h4>Retail Space</h4>
+                  </div>
+                </div>
+                <div className="said">
+                  <p>What They Said 🤗</p>
+                  <h5>
+                    Estatein's expertise in finding the perfect office space for
+                    our expanding operations was invaluable. They truly
+                    understand our business needs.
+                  </h5>
+                </div>
+              </div>
+              <div className="section-bottom">
+                <div className="since">
+                  <div className="year">
+                    <p>Since 2018</p>
+                    <h3>GreenTech Enterprises</h3>
+                  </div>
+                  <button>Visit Website</button>
+                </div>
+                <div className="domain">
+                  <div className="domain-left">
+                    <div className="domainy">
+                      <img src="imgs/domain.png" alt="" />
+                      <p>Domain</p>
+                    </div>
+                    <h4>Commercial Real Estate</h4>
+                  </div>
+                  <div className="domain-right">
+                    <div className="domainy">
+                      <img src="imgs/electr.png" alt="" />
+                      <p>Category</p>
+                    </div>
+                    <h4>Retail Space</h4>
+                  </div>
+                </div>
+                <div className="said">
+                  <p>What They Said 🤗</p>
+                  <h5>
+                    Estatein's expertise in finding the perfect office space for
+                    our expanding operations was invaluable. They truly
+                    understand our business needs.
+                  </h5>
+                </div>
+              </div>
+            </div>
+          </SwiperSlide>
+          <SwiperSlide>
+            <div className="section-box">
+              {" "}
+              <div className="section-bottom">
+                <div className="since">
+                  <div className="year">
+                    <p>Since 2019</p>
+                    <h3>ABC Corporation</h3>
+                  </div>
+                  <button>Visit Website</button>
+                </div>
+                <div className="domain">
+                  <div className="domain-left">
+                    <div className="domainy">
+                      <img src="imgs/domain.png" alt="" />
+                      <p>Domain</p>
+                    </div>
+                    <h4>Commercial Real Estate</h4>
+                  </div>
+                  <div className="domain-right">
+                    <div className="domainy">
+                      <img src="imgs/electr.png" alt="" />
+                      <p>Category</p>
+                    </div>
+                    <h4>Luxury Home Development</h4>
+                  </div>
+                </div>
+                <div className="said">
+                  <p>What They Said 🤗</p>
+                  <h5>
+                    Estatein's expertise in finding the perfect office space for
+                    our expanding operations was invaluable. They truly
+                    understand our business needs.
+                  </h5>
+                </div>
+              </div>
+              <div className="section-bottom">
+                <div className="since">
+                  <div className="year">
+                    <p>Since 2019</p>
+                    <h3>ABC Corporation</h3>
+                  </div>
+                  <button>Visit Website</button>
+                </div>
+                <div className="domain">
+                  <div className="domain-left">
+                    <div className="domainy">
+                      <img src="imgs/domain.png" alt="" />
+                      <p>Domain</p>
+                    </div>
+                    <h4>Commercial Real Estate</h4>
+                  </div>
+                  <div className="domain-right">
+                    <div className="domainy">
+                      <img src="imgs/electr.png" alt="" />
+                      <p>Category</p>
+                    </div>
+                    <h4>Luxury Home Development</h4>
+                  </div>
+                </div>
+                <div className="said">
+                  <p>What They Said 🤗</p>
+                  <h5>
+                    Estatein's expertise in finding the perfect office space for
+                    our expanding operations was invaluable. They truly
+                    understand our business needs.
+                  </h5>
+                </div>
+              </div>
+            </div>
+          </SwiperSlide>
+          <SwiperSlide>
+            <div className="section-box">
+              <div className="section-bottom">
+                <div className="since">
+                  <div className="year">
+                    <p>Since 2019</p>
+                    <h3>ABC Corporation</h3>
+                  </div>
+                  <button>Visit Website</button>
+                </div>
+                <div className="domain">
+                  <div className="domain-left">
+                    <div className="domainy">
+                      <img src="imgs/domain.png" alt="" />
+                      <p>Domain</p>
+                    </div>
+                    <h4>Commercial Real Estate</h4>
+                  </div>
+                  <div className="domain-right">
+                    <div className="domainy">
+                      <img src="imgs/electr.png" alt="" />
+                      <p>Category</p>
+                    </div>
+                    <h4>Luxury Home Development</h4>
+                  </div>
+                </div>
+                <div className="said">
+                  <p>What They Said 🤗</p>
+                  <h5>
+                    Estatein's expertise in finding the perfect office space for
+                    our expanding operations was invaluable. They truly
+                    understand our business needs.
+                  </h5>
+                </div>
+              </div>
+              <div className="section-bottom">
+                <div className="since">
+                  <div className="year">
+                    <p>Since 2019</p>
+                    <h3>ABC Corporation</h3>
+                  </div>
+                  <button>Visit Website</button>
+                </div>
+                <div className="domain">
+                  <div className="domain-left">
+                    <div className="domainy">
+                      <img src="imgs/domain.png" alt="" />
+                      <p>Domain</p>
+                    </div>
+                    <h4>Commercial Real Estate</h4>
+                  </div>
+                  <div className="domain-right">
+                    <div className="domainy">
+                      <img src="imgs/electr.png" alt="" />
+                      <p>Category</p>
+                    </div>
+                    <h4>Luxury Home Development</h4>
+                  </div>
+                </div>
+                <div className="said">
+                  <p>What They Said 🤗</p>
+                  <h5>
+                    Estatein's expertise in finding the perfect office space for
+                    our expanding operations was invaluable. They truly
+                    understand our business needs.
+                  </h5>
+                </div>
+              </div>
+            </div>
+          </SwiperSlide>
+        </Swiper>
       </div>
     </>
   );

@@ -74,7 +74,7 @@ function Home() {
         <div className="feature-bottom">
           <Swiper
             pagination={true}
-            slidesPerView={3}
+            slidesPerView={2}
             spaceBetween={30}
             className="mySwiper"
           >

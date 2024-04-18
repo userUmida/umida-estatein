@@ -926,3 +926,99 @@ ul span {
     rgba(112, 59, 247, 0) 13.589%
   );
 }
+.team {
+  padding: 150px 0;
+}
+.team-top h2 {
+  color: rgb(255, 255, 255);
+  font-family: Urbanist;
+  font-size: 48px;
+  font-weight: 600;
+  line-height: 150%;
+  letter-spacing: 0%;
+  text-align: left;
+  margin-bottom: 14px;
+}
+.team-top p {
+  max-width: 1297px;
+  color: rgb(153, 153, 153);
+  font-family: Urbanist;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 150%;
+  letter-spacing: 0%;
+  text-align: left;
+}
+.bio h4 {
+  color: rgb(255, 255, 255);
+  font-family: Urbanist;
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 28px;
+  letter-spacing: 0%;
+  text-align: center;
+  margin-top: 50px;
+}
+.bio {
+  box-sizing: border-box;
+  /* Grey/15 */
+  border: 1px solid rgb(38, 38, 38);
+  border-radius: 12px;
+  padding: 30px;
+}
+.bio p {
+  color: rgb(153, 153, 153);
+  font-family: Urbanist;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: 0%;
+  text-align: center;
+  margin-top: 6px;
+}
+/* .bio button {
+  color: rgb(255, 255, 255);
+  font-family: Urbanist;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 28px;
+  letter-spacing: 0%;
+  text-align: left;
+} */
+.team-bottom {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 80px;
+}
+.image-box {
+  position: relative;
+}
+.btn-img {
+  position: absolute;
+  right: 125px;
+  top: 235px;
+}
+.button-box {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 14px;
+  box-sizing: border-box;
+  /* Grey/15 */
+  border: 1px solid rgb(38, 38, 38);
+  border-radius: 100px;
+
+  /* Grey/10 */
+  background: rgb(26, 26, 26);
+  margin-top: 24px;
+}
+.button-box h5 {
+  color: rgb(255, 255, 255);
+  font-family: Urbanist;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 28px;
+  letter-spacing: 0%;
+  text-align: left;
+  text-align: center;
+}
