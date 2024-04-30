@@ -359,8 +359,8 @@ function About() {
               <div className="section-bottom">
                 <div className="since">
                   <div className="year">
-                    <p>Since 2018</p>
-                    <h3>GreenTech Enterprises</h3>
+                    <p>Since 2019</p>
+                    <h3>ABC Corporation</h3>
                   </div>
                   <button>Visit Website</button>
                 </div>
@@ -464,7 +464,7 @@ function About() {
                 <div className="since">
                   <div className="year">
                     <p>Since 2019</p>
-                    <h3>ABC Corporation</h3>
+                    <h3>GreenTech Enterprises</h3>
                   </div>
                   <button>Visit Website</button>
                 </div>
@@ -534,7 +534,7 @@ function About() {
                 <div className="since">
                   <div className="year">
                     <p>Since 2019</p>
-                    <h3>ABC Corporation</h3>
+                    <h3>GreenTech Enterprises</h3>
                   </div>
                   <button>Visit Website</button>
                 </div>
@@ -566,6 +566,22 @@ function About() {
             </div>
           </SwiperSlide>
         </Swiper>
+      </div>
+      <div className="start-box">
+        <div className="start container">
+          <h2>Start Your Real Estate Journey Today</h2>
+          <div className="starter">
+            <p>
+              Your dream property is just a click away. Whether you're looking
+              for a new home, a strategic investment, or expert real estate
+              advice, Estatein is here to assist you every step of the way. Take
+              the first step towards your real estate goals and explore our
+              available properties or get in touch with our team for
+              personalized assistance.
+            </p>
+            <button>Explore Properties</button>
+          </div>
+        </div>
       </div>
     </>
   );

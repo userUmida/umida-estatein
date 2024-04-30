@@ -47,7 +47,15 @@ header ul li {
   letter-spacing: 0%;
   text-align: left;
 }
+header li:hover {
+  box-sizing: border-box;
+  /* Grey/15 */
+  border: 1px solid rgb(38, 38, 38);
+  border-radius: 10px;
 
+  /* Grey/08 */
+  background: rgb(20, 20, 20);
+}
 nav button {
   color: rgb(255, 255, 255);
   font-size: 18px;
@@ -561,6 +569,7 @@ a {
   /* Grey/15 */
   border-bottom: 1px solid rgb(38, 38, 38);
   border-top: 1px solid rgb(38, 38, 38);
+  margin-top: 150px;
 }
 
 input {
@@ -1021,4 +1030,133 @@ ul span {
   letter-spacing: 0%;
   text-align: left;
   text-align: center;
+}
+.section-box {
+  display: flex;
+  gap: 50px;
+}
+.year p {
+  color: rgb(153, 153, 153);
+  font-family: Urbanist;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 150%;
+  letter-spacing: 0%;
+  text-align: left;
+}
+.year h3 {
+  color: rgb(255, 255, 255);
+  font-family: Urbanist;
+  font-size: 30px;
+  font-weight: 600;
+  line-height: 150%;
+  letter-spacing: 0%;
+  text-align: left;
+}
+.since button {
+  color: rgb(255, 255, 255);
+  font-family: Urbanist;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 150%;
+  letter-spacing: 0%;
+  text-align: left;
+  box-sizing: border-box;
+  /* Grey/15 */
+  border: 1px solid rgb(38, 38, 38);
+  border-radius: 10px;
+
+  /* Grey/10 */
+  background: rgb(26, 26, 26);
+  padding: 18px 24px;
+}
+.section-top h2 {
+  color: rgb(255, 255, 255);
+  font-family: Urbanist;
+  font-size: 48px;
+  font-weight: 600;
+  line-height: 150%;
+  letter-spacing: 0%;
+  text-align: left;
+}
+.section-top p {
+  max-width: 1297px;
+  color: rgb(153, 153, 153);
+  font-family: Urbanist;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 150%;
+  letter-spacing: 0%;
+  text-align: left;
+}
+.since {
+  display: flex;
+  justify-content: space-between;
+}
+.domain p {
+  color: rgb(153, 153, 153);
+  font-family: Urbanist;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 150%;
+  letter-spacing: 0%;
+  text-align: left;
+}
+.domainy {
+  display: flex;
+  gap: 5px;
+}
+.domain h4 {
+  color: rgb(255, 255, 255);
+  font-family: Urbanist;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 150%;
+  letter-spacing: 0%;
+  text-align: left;
+}
+.domain {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 40px;
+}
+.said p {
+  color: rgb(153, 153, 153);
+  font-family: Urbanist;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 150%;
+  letter-spacing: 0%;
+  text-align: left;
+}
+.said h5 {
+  max-width: 613.5px;
+  color: rgb(255, 255, 255);
+  font-family: Urbanist;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 150%;
+  letter-spacing: 0%;
+  text-align: left;
+  margin-top: 15px;
+}
+.said {
+  box-sizing: border-box;
+  /* Grey/15 */
+  border: 1px solid rgb(38, 38, 38);
+  border-radius: 12px;
+  padding: 30px;
+  margin-top: 40px;
+}
+.section-bottom {
+  box-sizing: border-box;
+  /* Grey/15 */
+  border: 1px solid rgb(38, 38, 38);
+  border-radius: 12px;
+
+  box-shadow: 0px 0px 0px 8px rgb(25, 25, 25);
+  /* Grey/08 */
+  background: rgb(20, 20, 20);
+  padding: 50px;
+  margin-top: 50px;
 }
